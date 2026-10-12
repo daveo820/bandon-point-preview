@@ -329,7 +329,9 @@
 <script>(() => {
   const video = document.querySelector('[data-hero-video]');
   const still = window.matchMedia('(prefers-reduced-motion: reduce)');
-  if (video && !still.matches) {
+  // Start the video only after load and idle, so it never competes with the poster, fonts or LCP.
+  const startVideo = () => {
+    if (!video || still.matches) return;
     const portrait = window.matchMedia('(orientation: portrait) and (max-width: 900px)').matches;
     const small = window.matchMedia('(max-width: 1024px)').matches;
     const list = portrait
@@ -337,17 +339,25 @@
       : small
         ? [[video.dataset.mp4Small, 'video/mp4']]
         : [[video.dataset.webm, 'video/webm'], [video.dataset.mp4, 'video/mp4']];
+    const img = video.parentElement.querySelector('.hero-media img');
+    if (img?.currentSrc) video.poster = img.currentSrc;
     for (const [src, type] of list) {
       const s = document.createElement('source');
       s.src = src;
       s.type = type;
       video.append(s);
     }
+    video.preload = 'metadata';
+    video.autoplay = true;
     video.addEventListener('playing', () => video.classList.add('is-playing'), { once: true });
     video.load();
     video.play().catch(() => {});
     still.addEventListener?.('change', (e) => e.matches && video.pause());
-  }
+  };
+  const idle = window.requestIdleCallback || ((cb) => setTimeout(cb, 200));
+  const afterLoad = () => idle(startVideo, { timeout: 2000 });
+  if (document.readyState === 'complete') afterLoad();
+  else window.addEventListener('load', afterLoad, { once: true });
 
   const header = document.querySelector('[data-header]');
   if (header) {
