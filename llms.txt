@@ -7,7 +7,7 @@ Breathtaking Scenery. Elevated Design. Extraordinary Experience.
 ## Pages
 - [Bandon Point | Oceanfront Vacation Rental Near Bandon Dunes, Oregon](https://bandonpoint.com/): An oceanfront vacation rental near Bandon Dunes: four king bedrooms with private baths on six private acres overlooking the Pacific. Coming summer 2028.
 - [Bandon Golf Trip Lodging for Four | Bandon Point Oceanfront Home](https://bandonpoint.com/bandon-dunes-golf-rental): Bandon Dunes golf trip lodging on the ocean: four king bedrooms with private baths, ideally suited for four golfers, minutes from the resort. Opening 2028.
-- [Golf Courses Near Bandon Point | Bandon Dunes and Bandon Crossings](https://bandonpoint.com/nearby-courses): Courses near our Bandon, Oregon oceanfront home: Pacific Dunes, Sheep Ranch, Old Macdonald and more, plus Bandon Crossings. Not affiliated with the resort.
+- [Golf Courses Near Bandon Point | Bandon Dunes and Bandon Crossings](https://bandonpoint.com/nearby-courses): Courses near our Bandon, Oregon oceanfront home: Pacific Dunes, Sheep Ranch, Old Macdonald and more, plus Bandon Crossings.
 - [Full text for AI assistants](https://bandonpoint.com/llms-full.txt)
 
 ## Property facts
@@ -30,8 +30,6 @@ Breathtaking Scenery. Elevated Design. Extraordinary Experience.
 - Shorty's: Rod Whitman, Dave Axland and Keith Cutten, opened 2024, 19 hole par 3
 - The Punchbowl: Tom Doak with Jim Urbina, opened 2014, 18 hole putting course
 - Bandon Crossings: Dan Hixson, opened 2007, 18 holes
-
-Bandon Point is a privately owned property near Bandon Dunes Golf Resort. It is not located on the resort and is not affiliated with Bandon Dunes Golf Resort, Bandon Crossings, or any course listed.
 
 ## Contact
 - Email: info@bandonpoint.com
