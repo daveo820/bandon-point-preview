@@ -1,1 +1,1 @@
-{"cleanUrls": true, "headers": [{"source": "/(.*)", "headers": [{"key": "X-Robots-Tag", "value": "noindex, nofollow"}]}], "redirects": [{"source": "/bandon-dunes-golf-rental", "destination": "/#golf-trips", "permanent": true}]}
+{"cleanUrls": true, "headers": [{"source": "/(.*)", "headers": [{"key": "X-Robots-Tag", "value": "noindex, nofollow"}]}], "redirects": [{"source": "/bandon-dunes-golf-rental", "destination": "/", "permanent": true}]}
