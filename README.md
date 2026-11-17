@@ -1,3 +1,3 @@
-# Bandon Point preview (noindex)
+# Bandon Point (static build)
 
-Built static output only of the Bandon Point phase one site, from source commit 8469801 (branch cursor/bandon-point-phase-one-ef57). This is a private preview build: every page carries noindex, robots.txt disallows all crawling, and Vercel sends X-Robots-Tag: noindex. No source code lives here.
+Built static output of the Bandon Point phase one site, from source commit 2158106 (branch cursor/bandon-point-phase-one-ef57). This is the launch build: pages are indexable, robots.txt allows crawling and lists the sitemap, and canonical and Open Graph URLs point at https://bandonpoint.com. No source code lives here.
